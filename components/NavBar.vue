@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="navbar">
+        <div class="navbar md:px-16">
             <div class="flex-1 flex-wrap">
                 <a class="btn btn-ghost normal-case text-xl">
                     <NuxtLink to="/"><Icon name="ph:code-bold" /></NuxtLink>
@@ -19,6 +19,6 @@
 
 <style lang="postcss" scoped>
 .navbar {
-    @apply rounded-full bg-base-100 dark:bg-slate-800
+    @apply bg-slate-200 dark:bg-slate-800
 }
 </style>

@@ -1,8 +1,7 @@
 <template>
     <div>
+    <NavBar />
         <div class="container mx-auto px-16 max-w-5xl">
-            <NavBar />
-
             <!-- <NuxtPage /> -->
             <ContentDoc />
         </div>
@@ -22,5 +21,9 @@ body {
 
 h1 {
     @apply text-xl
+}
+
+.bg-main {
+    @apply bg-slate-200 dark:bg-slate-800
 }
 </style>
