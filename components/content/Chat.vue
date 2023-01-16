@@ -3,7 +3,7 @@
         <div class="chat chat-start">
             <div class="chat-image avatar">
                 <div class="w-10 rounded-full">
-                    <nuxt-img src="/img/avatar.jpg" />
+                    <img src="/img/avatar.jpg" />
                 </div>
             </div>
             <div class="chat-header">
