@@ -6,6 +6,7 @@
         <div class="container mx-auto px-8 md:px-16 max-w-5xl">
             <NuxtPage />
         </div>
+    <!-- <Footer /> -->
     </div>
 </template>
 
