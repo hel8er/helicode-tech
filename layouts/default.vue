@@ -1,6 +1,8 @@
 <template>
     <div>
     <NavBar />
+    <NuxtLoadingIndicator />
+
         <div class="container mx-auto px-16 max-w-5xl">
             <NuxtPage />
         </div>
@@ -14,7 +16,7 @@ html {
 
 body {
     @apply bg-gradient-to-r from-slate-200 to-slate-400;
-    @apply dark:bg-gradient-to-br dark:from-gray-700 dark:to-gray-800;
+    @apply dark:bg-gradient-to-br dark:from-slate-600 dark:to-slate-800;
     @apply dark:text-slate-400 text-slate-800
   }
 
