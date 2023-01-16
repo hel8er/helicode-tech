@@ -2,8 +2,7 @@
     <div>
     <NavBar />
         <div class="container mx-auto px-16 max-w-5xl">
-            <!-- <NuxtPage /> -->
-            <ContentDoc />
+            <NuxtPage />
         </div>
     </div>
 </template>
@@ -15,7 +14,7 @@ html {
 
 body {
     @apply bg-gradient-to-r from-slate-200 to-slate-400;
-    @apply dark:bg-gradient-to-r dark:from-gray-700 dark:to-zinc-700;
+    @apply dark:bg-gradient-to-br dark:from-gray-700 dark:to-gray-800;
     @apply dark:text-slate-400 text-slate-800
   }
 

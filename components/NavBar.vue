@@ -1,11 +1,11 @@
 <template>
     <div>
-        <div class="navbar md:px-16">
+        <div class="navbar">
             <div class="flex-1 flex-wrap">
-                <a class="btn btn-ghost normal-case text-xl">
-                    <NuxtLink to="/"><Icon name="ph:code-bold" /></NuxtLink>
-                </a>
-                <NuxtLink to="/folio">Портфолио</NuxtLink>
+                <NuxtLink to="/" class="btn btn-ghost normal-case text-xl">
+                    <Icon name="ph:code-bold" />
+                </NuxtLink>
+                <NuxtLink to="/folio" class="btn btn-ghost">Портфолио</NuxtLink>
 
             </div>
             <div class="flex-none space-x-2">

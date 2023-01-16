@@ -39,7 +39,7 @@
                 <a href="https://itvectura.com/" target="_blank">
                     <h2 class="card-title">Сайт IT-компании </h2>
                 </a>
-                <p>Участие в проекте, поддежка caйта на Hugo</p>
+                <p>Участие в проекте, поддежка мультиязычного caйта на Hugo</p>
                 <!-- <div class="card-actions justify-end">
                     <button class="btn btn-primary">Buy Now</button>
                 </div> -->

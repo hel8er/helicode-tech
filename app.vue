@@ -2,8 +2,13 @@
 import NavBar from './components/NavBar.vue';
 
 <template>
-  <div>
+  <div tabindex="0">
+    <NuxtLayout>
+    <NuxtLoadingIndicator />
   <NuxtPage />
+  </NuxtLayout>
+
+
   </div>
 </template>
 
