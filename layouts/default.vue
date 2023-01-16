@@ -3,7 +3,7 @@
     <NavBar />
     <NuxtLoadingIndicator />
 
-        <div class="container mx-auto px-16 max-w-5xl">
+        <div class="container mx-auto px-8 max-w-5xl">
             <NuxtPage />
         </div>
     </div>
