@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-wrap justify-around my-16">
-    <ContentList path="/folio/cases" v-slot="{ list }">
+    <ContentList path="/folio/" v-slot="{ list }">
   <div v-for="_case in list" :key="_case._path" class="card w-80 mt-8  bg-slate-200 dark:bg-slate-900 shadow-xl">
   <figure><img :src="`/img/folio/${_case.cover}`" /></figure>
   <div class="card-body">

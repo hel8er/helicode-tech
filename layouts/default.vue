@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="min-h-screen">
         <NuxtLoadingIndicator />
         <NavBar />
-        <div class="container mx-auto max-w-5xl">
+        <div class="container mx-auto mt-8 max-w-5xl">
             <ContentDoc />
         </div>
         <!-- <Footer /> -->
@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    @apply text-xl
+    @apply text-5xl my-4 underline
 }
 
 .bg-main {
