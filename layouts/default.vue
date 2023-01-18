@@ -1,8 +1,8 @@
 <template>
     <div>
-        <NavBar />
         <NuxtLoadingIndicator />
-        <div class="container mx-auto px-8 md:px-16 max-w-5xl">
+        <NavBar />
+        <div class="container mx-auto max-w-5xl">
             <ContentDoc />
         </div>
         <!-- <Footer /> -->
