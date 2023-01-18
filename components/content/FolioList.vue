@@ -2,7 +2,7 @@
   <div class="flex flex-wrap justify-around my-16">
     <ContentList path="/folio/cases" v-slot="{ list }">
   <div v-for="_case in list" :key="_case._path" class="card w-80 mt-8  bg-slate-200 dark:bg-slate-900 shadow-xl">
-  <figure><img :src="`/img/folio/${_case.cover}`" /></figure>
+  <figure><img :src="`~/assets/img/folio/${_case.cover}`" /></figure>
   <div class="card-body">
     <h2 class="card-title">{{ _case.title }}</h2>
     <p>{{ _case.description }}</p>
