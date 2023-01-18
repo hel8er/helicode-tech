@@ -1,7 +1,7 @@
 <template>
     <div class="hero min-h-screen">
   <div class="hero-content flex-col lg:flex-row-reverse">
-    <img src="/img/avatar.jpg" class="max-w-sm rounded-lg shadow-2xl" />
+    <img src="~/assets/img/avatar.jpg" class="max-w-sm rounded-lg shadow-2xl" />
     <div>
       <h1 class="text-5xl font-bold">Привет!</h1>
       <p class="py-6">Здесь вы можете ознакомится с моим портфолио. 
