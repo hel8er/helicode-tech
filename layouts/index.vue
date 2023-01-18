@@ -1,10 +1,10 @@
 <template>
     <div>
     <NavBar />
+
     <NuxtLoadingIndicator />
-        <!-- <Hero /> -->
-        <div class="container mx-auto px-8 md:px-16 max-w-5xl">
-            <NuxtPage />
+        <div class="container mx-auto md:px-16 max-w-5xl">
+            <Hero />
         </div>
     <!-- <Footer /> -->
     </div>
