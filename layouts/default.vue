@@ -1,12 +1,11 @@
 <template>
     <div>
-    <NavBar />
-    <NuxtLoadingIndicator />
-        <!-- <Hero /> -->
+        <NavBar />
+        <NuxtLoadingIndicator />
         <div class="container mx-auto px-8 md:px-16 max-w-5xl">
-            <NuxtPage />
+            <ContentDoc />
         </div>
-    <!-- <Footer /> -->
+        <!-- <Footer /> -->
     </div>
 </template>
 
@@ -19,7 +18,7 @@ body {
     @apply bg-gradient-to-r from-slate-200 to-slate-400;
     @apply dark:bg-gradient-to-br dark:from-slate-600 dark:to-slate-800;
     @apply dark:text-slate-400 text-slate-800
-  }
+}
 
 h1 {
     @apply text-xl
@@ -28,4 +27,5 @@ h1 {
 .bg-main {
     @apply bg-slate-200 dark:bg-slate-800
 }
+
 </style>

@@ -5,6 +5,8 @@
     <NuxtLoadingIndicator />
         <div class="container mx-auto md:px-16 max-w-5xl">
             <Hero />
+            <!-- <NuxtPage /> -->
+
         </div>
     <!-- <Footer /> -->
     </div>
