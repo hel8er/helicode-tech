@@ -7,8 +7,9 @@
       <p class="py-6">Здесь вы можете ознакомится с моим портфолио. 
         Это проекты которые я реализовывл самостоятельно или работал совместно с другими участниками. 
         Вы можете написать мне в мессенджер по кнопке в правом верхнем углу</p>
-      <NuxtLink to="/folio" class="btn btn-primary">Перейти в портфолио</NuxtLink>
-    </div>
+       <div class="mt-4 flex justify-end lg:justify-start"> 
+      <NuxtLink to="/folio" class="btn btn-primary mr-8">Перейти в портфолио</NuxtLink>
+    </div></div>
   </div>
 </div>
 </template>
